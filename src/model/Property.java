@@ -4,12 +4,14 @@ public class Property {
 
 	private String type;
 	private String address;
+	private String property_book_number;
 	private double area;	
 	private int price;
 	
 	public Property() {
 		type = "flat";
 		address = "default address";
+		property_book_number = "GD1G/000000/0";
 		area = 999;
 		price = 99999;
 	}
@@ -50,5 +52,9 @@ public class Property {
 	
 	public int getPrice() {
 		return price;
+	}
+	
+	public String getPropertyBookNumber() {
+		return property_book_number;
 	}
 }

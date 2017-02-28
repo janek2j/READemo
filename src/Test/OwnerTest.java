@@ -6,7 +6,6 @@ package Test;
 import static org.junit.Assert.*;
 import model.Owner;
 
-
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -39,7 +38,9 @@ public class OwnerTest {
 		
 		
 		assertEquals("FirstName SecondName", owner.name);
-		//fail("Not yet implemented");
+		//////////////fail("Not yet implemented");
 	}
+	
+	
 
 }
