@@ -11,6 +11,7 @@ public class Property {
 	public Property() {
 		type = "flat";
 		address = "default address";
+		property_book_number = "GD1G/000000/0";
 		area = 999;
 		price = 99999;
 	}
