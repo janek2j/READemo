@@ -6,6 +6,7 @@ public class Property {
 	private String address;
 	private double area;	
 	private int price;
+	private int test___test;
 	
 	public Property() {
 		type = "flat";
