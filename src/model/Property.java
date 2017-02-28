@@ -4,9 +4,10 @@ public class Property {
 
 	private String type;
 	private String address;
+	private String property_book_number;
 	private double area;	
 	private int price;
-	private int test___test;
+
 	
 	public Property() {
 		type = "flat";
