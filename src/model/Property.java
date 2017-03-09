@@ -54,4 +54,8 @@ public class Property {
 	public int getPrice() {
 		return price;
 	}
+	
+	public String toString() {
+		return ("Type: " + type + ", Address: " + address + ", Area: " + area);
+	}
 }
